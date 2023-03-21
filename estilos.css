@@ -1,0 +1,160 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+    
+@media (min-width: 768px) {
+    body {
+        display: grid;
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 1fr 300px;
+    }
+}
+    
+header {
+    background-color: #000000;
+    padding: 1.5rem;
+    grid-column: span 2;
+    color: white;
+}
+
+main {
+    background: #ffffff;
+    flex: 1;
+    padding: 5%;
+    text-align: justify;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+aside {
+    background: #afafaf;
+    flex: 1;
+    padding: 5%;
+    text-align: justify;
+    padding-top: 25px;
+}
+    
+footer {
+    background-color: #000000;
+    padding-left: 5%;
+    grid-column: span 2;
+    color: white;
+}
+
+.menu {
+    list-style: none;
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+	border-radius: 5px 10px;
+}
+
+.logo {
+    margin-left:2%;
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+    padding-right: 60%;
+}
+
+.link_interno {
+    color: #000000;
+    text-decoration: none;
+    font-size: 125%;
+}
+
+.link_paginas {
+    color: #ffffff;
+}
+
+.menu:hover {
+    background-color: #8a8a8a;
+    transition: 0.5s;
+}
+
+p {
+    font-size: 20px;
+}
+
+.direito-aut {
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 1em;
+}
+
+.center {
+    text-align: center;
+}
+
+.imgshtml {
+    width: 100%;
+    text-align: center;
+}
+
+.imgshtml > img {
+    height: 18em;
+}
+
+.estruturahtml {
+    width: 100%;
+    text-align: center;
+}
+
+.imgslogo {
+    width: 100%;
+    text-align: center;
+}
+
+#mdn {
+    padding-right: 10em;
+}
+
+#dml {
+    padding-left: 10em;
+}
+
+.jscript {
+    border: 1px solid #aaaaff;
+    background-color: #ddddff;
+}
+
+table {
+    border-spacing: 0px;
+    border: 1px solid #afafaf;
+}
+
+.tag {
+    background-color: #afafaf;
+    text-align: right;
+    padding: 15px;
+    border: 1px solid #afafaf;
+}
+
+.descrição {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #afafaf;
+}
+
+.titulotag {
+    text-align: center;
+    background-color: #afafaf;
+    padding: 15px;
+}
+
+.titulodescrição {
+    text-align: center;
+    background-color: #c5c5c5;
+    padding: 15px;
+}

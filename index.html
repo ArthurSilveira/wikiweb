@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wiki Web</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="imagens/internet.png">
+  </head>
+  <body class="container">
+    <header>
+      <nav>
+        <li class="logo"><img src="imagens/Wiki Web.png"></li>
+        <li class="menu"><a class="link_interno" href="index.html"><strong>HTML</strong></a></li>
+        <li class="menu"><a class="link_interno" href="css.html"><strong>CSS</strong></a></li>
+        <li class="menu"><a class="link_interno" href="js.html"><strong>JAVA SCRIPT</strong></a></li>
+      </nav>
+    </header>
+    <main>
+      <h1>HTML (Hyper Text Markup Language)</h2>
+      <h2>História</h2>
+        <p>O HTML (Hypertext Markup Language) foi criado em 1991 na Suiça por Tim Berners-Lee, o objetivo inicial do HTML foi interligar instituições de pesquisas, facilitando o compartilhamento de documentos. Depois disso no ano de 1992, foi lançado o World Wide Web, ou o WWW, que em conjunto como o html tornou possível a navegação mundialmente na Web.</p>
+        <h2>Funcionamento</h2>
+        <p>O HTML é um linguagem de marcação, com isso ele possui códigos que separam as diversas funções. Para criar uma página na Web utilizamos um documento com a extensão .html ou .htm.,o navegador faz a leitura do arquivo e renderiza o seu conteúdo para que o usuário final possa visualizá-lo, os documentos podem ser visualizados em qualquer tipo de navegador.</p>
+        <p>Para realizar o código pode ser utilizado qualquer tipo de editor de texto, até mesmo o bloco de notas. Cada página do html possui diversos elementos também conhecidos como tags. Essas tags vão definir a construção da página, a maioria desses elementos estão entre <>, e possuem uma fechadura </>.<br><br>Como exemplo:</p>
+        <div class="imgshtml">
+          <img src="imagens/imghtml.png">
+          <img class="fim" src="imagens/imghtmlfim.jpg">
+        </div>
+        <p class="center"><strong>* Essa estrutura abre um documento html e também o fecha. *</strong></p>
+        <p>Para começar um código html você precisa saber como começar esse documento, já sabendo onde digitar o código e como salva-lo, você irá começar a página com os seguintes elementos :</p>
+        <p>1. &lt;!DOCTYPE html&gt;</p>
+        <p>2. &lthtml lang="pt-br"&gt;</p>
+        <p>3. &lthead&gt;</p>
+        <p>A informação da primeira linha <!DOCTYPE html>, define o documento como um html.</p>
+        <p>A segunda linha &lt;html lang=”pt-br”&gt; &lt;/html&gt;, vai definir a linguagem do documento, mas atenção, você ainda terá que realizar o código em inglês. Essa função serve apenas para textos que você irá inserir no seu documento, e não para o código. Além disso essa tag como já mostrada vai abrir o documento html e fecha-lo.</p>
+        <p>A terceira linha &lt;head&gt; &lt;/head&gt; indica o cabeçalho do documento, vai ser o local onde você irá colocar o título, com as tags &lt;title&gt; &lt;/title&gt;, e também o &lt;meta charset="utf-8"&gt, que irá fazer que os acentos e outros símbolos do seu texto sejam renderizados. Como exemplo :</p>
+        <p>1. &lt;head&gt
+        <p>2. &lt;title&gtTítulo da página"<"/title&gt
+        <p>3. &lt;meta charset="utf-8&gt
+        <p>4. &lt;/head&gt
+        <p>E com isso você já sabe como iniciar um documento html. Agora você precisa conhecer as estruturas seguintes. Para ficar mais fácil vamos disponibilizar um quadro com inúmeras estruturas, e caso tenha dúvidas onde encaixa-las basta saber a que linguagem aquela estrutura corresponde ou qual função ela possui, normalmente todas as funções html ficam dentro do &lt;body&gt; &lt;/body&gt;, que vem logo após o &lt;head&gt; &lt;/head&gt; já mostrado. </p>
+        <table>
+          <tr><td  class="titulotag"><strong>TAG</strong></td><td  class="titulodescrição"><strong>DESCRIÇÃO</strong></td></tr>
+
+          <tr><td class="tag">&lt;style&gt&lt;/style&gt;</td><td class="descrição">Introduz um código CSS ao documento HTML.</td></tr>
+
+          <tr><td class="tag">&lt;script&gt;&lt;/script&gt;</td><td class="descrição">Introduz um código de Script, como JavaScript, ao documento HTML.</td></tr>
+
+          <tr><td class="tag">&lt;link&gt;</td><td class="descrição">Possibilita fazer uma linkagem com documentos locais ou globais, como por exemplo fontes ou folhas de estilos.</td></tr>
+
+          <tr><td class="tag">&lt;meta&gt;</td><td class="descrição">Possibilita incluir metadados na página.</td></tr>
+
+          <tr><td class="tag">&lt;h1&gt;&lt;/h1&gt;<br>&lt;h2&gt;&lt;/h2&gt;<br>&lt;h3&gt;&lt;/h3&gt;<br>&lt;h4&gt;&lt;/h4&gt;<br>&lt;h5&gt;&lt;/h5&gt;<br>&lt;h6&gt;&lt;/h6&gt;</td><td class="descrição">Tags para definir um título e subtítulos, variando de a 6, sendo h1 o título mais importante e h6 o de menor importância.</td></tr>
+
+          <tr><td class="tag">&lt;p&gt;&lt;/p&gt;</td><td class="descrição">Tag para definir um parágrafo.</td></tr>
+
+          <tr><td class="tag">&lt;span&gt;&lt;&gt;/span</td><td class="descrição">Define um span.</td></tr>
+
+          <tr><td class="tag">&lt;br&gt;</td><td class="descrição">Realiza uma quebra de linha.</td></tr>
+
+          <tr><td class="tag">&lt;a&gt;&lt;/a&gt;</td><td class="descrição">Tag de link, junto ao atributo href=”…” é responsável pela principal característica da web. <a href="https://www.homehost.com.br/blog/criar-sites/links-html/"> (veja mais aqui)</a></td></tr>
+
+          <tr><td class="tag">&lt;header&gt;&lt;/header&gt;</td><td class="descrição">Define um cabeçalho – tag estrutural e semântica.</td></tr>
+
+          <tr><td class="tag">&lt;section&gt;&lt;/section&gt;</td><td class="descrição">Define uma seção – tag estrutural e semântica.</td></tr>
+
+          <tr><td class="tag">&lt;article&gt;&lt;&gt;/article</td class="descrição"><td class="descrição">Define um artigo – tag estrutural e semântica.</td></tr>
+
+          <tr><td class="tag">&lt;div&gt;&lt;/div&gt;</td><td class="descrição">Define uma divisão – tag estrutural.</td></tr>
+
+          <tr><td class="tag">&lt;footer&gt;&lt;/footer&gt;</td><td class="descrição">Define um rodapé – tag estrutural e semântica.</td></tr>
+
+          <tr><td class="tag">&lt;nav&gt;&lt;/nav&gt;</td><td class="descrição">Define uma área de navegação (como menus) – tag estrutural e semântica.</td></tr>
+
+          <tr><td class="tag">&lt;table&gt;&lt;/table&gt;</td><td class="descrição">Define uma tabela. <a href="https://www.homehost.com.br/blog/criar-sites/tabela-html/">(veja mais aqui)</a></td></tr>
+
+          <tr><td class="tag">&lt;tr&gt;&lt;/tr&gt;</td><td class="descrição">Define uma linha da tabela. <a href="https://www.homehost.com.br/blog/criar-sites/tabela-html/">(veja mais aqui)</a></td></tr>
+
+          <tr><td class="tag">&lt;td&gt;&lt;/td&gt;</td><td class="descrição">Define uma célula da tabela. <a href="https://www.homehost.com.br/blog/criar-sites/tabela-html/">(veja mais aqui)</a></td></tr>
+
+          <tr><td class="tag">&lt;ol&gt;&lt;/ol&gt;</td><td class="descrição">Define uma lista ordenada.</td></tr>
+
+          <tr><td class="tag">&lt;ul&gt;&lt;/ul&gt;</td><td class="descrição">Define uma lista não ordenada.</td></tr>
+
+          <tr><td class="tag">&lt;li&gt;&lt;/li&gt;</td><td class="descrição">Define o item de uma lista.</td></tr>
+
+          <tr><td class="tag">&lt;form&gt;&lt;/form&gt;</td><td class="descrição">Define um formulário. <a href="https://www.homehost.com.br/blog/criar-sites/formulario-html/">(veja mais aqui)</a></td></tr>
+
+          <tr><td class="tag">&lt;input&gt;</td><td class="descrição">Define os campos do formulário. <a href="https://www.homehost.com.br/blog/criar-sites/formulario-html/">(veja mais aqui)</a></td></tr>
+
+          <tr><td class="tag">&lt;textarea&gt;&lt;/textarea&gt;</td><td class="descrição">Define uma área para o usuário digitar um texto. <a href="https://www.homehost.com.br/blog/criar-sites/formulario-html/">(veja mais aqui)</a></td></tr>
+
+          <tr><td class="tag">&lt;button&gt;&lt;/button&gt;</td><td class="descrição">Define um botão.</td></tr>
+
+          <tr><td class="tag">&lt;img&gt;</td><td class="descrição">Permite inserir uma imagem no seu documento. <a href="https://www.homehost.com.br/blog/criar-sites/html-img/">(veja mais aqui)</a></td></tr>
+
+          <tr><td class="tag">&lt;iframe&gt;&lt;/iframe&gt;</td><td class="descrição">Define um quadro com conteúdo de outra página. <a href="https://www.homehost.com.br/blog/criar-sites/iframe-html/">(veja mais aqui)</a></td></tr>
+
+          <tr><td class="tag">&lt;video&gt;&lt;/video&gt;</td><td class="descrição">Define um campo de vídeo.</td></tr>
+        </table>
+        <p>Fonte: HOME HOST, HTML Básico: iniciando no desenvolvimento web com HTML 2021. Disponível em: https://www.homehost.com.br/blog/tutoriais/html-basico/</p>
+        <div class="estruturahtml">
+          <img src="imagens/estruturahtml.png">
+        </dv>
+    </main>
+    <aside>
+      <h3>Sites que podem te ajudar:</h3>
+        <li><a href="https://www.w3schools.com/" target="_blank">Aprenda como usar cada função - W3schools</a></li><br>
+        <li><a href="https://picular.co/" target="_blank">Encontre cores pelo nome - Picular</a></li><br>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Colors/Color_picker_tool" target="_blank">Encontre cores por um seletor - Picular</a></li><br>
+        <li><a href="https://loripsum.net/" target="_blank">Preencha suas caixas de texto - Lorem Ipsum Generator</a></li><br>
+        <li><a href="https://developer.mozilla.org/" target="_blank">Aprenda como usar cada função - Developer Mozilla</a></li><br>
+        <li><a href="https://neumorphism.io/#e0e0e0" target="_blank">Crie sombras em CSS - Neumorphism.io</a></li><br>
+        <li><a href="http://ami.responsivedesign.is/" target="_blank">Descubra se seu design responsivo funciona - Responsivedesign</a></li><br>
+        <li><a href="https://fonts.google.com/" target="_blank">Encontre a fonte que queira usar - Google Fonts</a></li><br>
+        <li><a href="https://coverr.co/" target="_blank">Imagens e videos sem direitos autorais - Coverr</a></li><br>
+      <h3>Sobre:</h3>
+        <p>O site Wiki Web surgiu em 2021 através de um projeto da matéria "Aplicações para Web" da turma do 2° ano de informática do IFMG Sabará. Pensado por um grupo de 5 estudantes, o site tem o objetivo de trazer um conhecimento básico para quem pouco conhece sobre o assunto de desenvolvimento para a web, explicando um pouco da história do surgimento da web, como funciona e etc.</p>
+    </aside>
+    <footer>
+      <h3>Integrantes:</h3>
+        <li><a class="link_paginas" href="https://tecle.librelab.org/~marcuspessoa/meu_site" target="_blank">Marcus</a></li>
+        <li><a class="link_paginas" href="null" target="_blank">Emelly</a></li>
+        <li><a class="link_paginas" href="null" target="_blank">Guilherme</a></li>
+        <li><a class="link_paginas" href="null" target="_blank">Juan</a></li>
+        <li><a class="link_paginas" href="https://tecle.librelab.org/~arthursilveira/" target="_blank">Arthur</a></li>
+      <h3 class="direito-aut">Wiki Web - &copy 2022 Copyrigth</h3>
+    </footer>
+    </body>
+  </html>
